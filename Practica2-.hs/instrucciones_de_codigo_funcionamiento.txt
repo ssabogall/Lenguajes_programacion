@@ -1,3 +1,6 @@
+Link del video: https://eafit-my.sharepoint.com/:v:/g/personal/ssabogall_eafit_edu_co/EcbiAtpZTExMjUB62BxBk6oBj4WAdabo3XHLbWF3zoJCqQ?e=fKH7ln
+
+
 Correcto:
 
 ghci> main
