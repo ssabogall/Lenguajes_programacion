@@ -1,0 +1,74 @@
+Universidad EAFIT
+Ingeniería de Sistemas
+Lenguajes de Programación ST0244
+Docente: Diego Iván Cruz Ordiéres
+Semestre 2023-2
+Proyecto Final (25%)
+
+Proyecto Final: ¿Quién quiere ser millonario?
+
+Una empresa se encuentra organizando un programa de concurso para ser emitido por televisión regional en Antioquia, similar al famoso programa “Quién quiere ser millonario”. 
+
+Para concursar hay que hacer una llamada y ser seleccionado; en el plató se encuentran varios aspirantes, y tan solo 1 de ellos va a concursar, el que consiga contestar a una pregunta (normalmente, ordenar de mayor a menor o viceversa cuatro elementos) más rápido de todos (Academic, 2021). 
+
+La propuesta de la empresa es que durante cada emisión del programa aparezcan dos participantes diferentes, cada uno de ellos clasificará por medio del método citado en el párrafo anterior. Cada participante contesta una cantidad máxima de 15 preguntas de selección múltiple con cuatro opciones de respuesta cada una de las que solo se puede seleccionar una; se inicia desde la primera pregunta, si se contesta correctamente, se pasa a la segunda pregunta, y así sucesivamente. 
+
+
+El juego termina cuando el participante responde correctamente todas las preguntas obteniendo el premio mayor, cuando decide retirarse llevando consigo el premio correspondiente a la última pregunta contestada correctamente (ver tabla 1) o cuando responde de forma incorrecta una pregunta. En este último caso, el participante perderá el dinero que otorga la última respuesta contestada correctamente; si no ha pasado por una pregunta que otorga un seguro, no gana dinero, de lo contrario, gana el dinero que otorga la pregunta que tiene el último seguro superado. 
+
+Tabla 1. Premiación por pregunta
+No. de pregunta	Valor de premio
+Pregunta 15	$ 300.000.000
+Pregunta 14	$ 100.000.000
+Pregunta 13	$ 50.000.000
+Pregunta 12	$ 20.000.000
+Pregunta 11	$ 12.000.000
+Pregunta 10 (seguro 2)	$ 10.000.000
+Pregunta 9	$ 7.000.000
+Pregunta 8	$ 5.000.000
+Pregunta 7	$ 3.000.000
+Pregunta 6	$ 2.000.000
+Pregunta 5 (seguro 1)	$ 1.000.000
+Pregunta 4	$ 500.000
+Pregunta 3	$ 300.000
+Pregunta 2	$ 200.000
+Pregunta 1	$ 100.000
+
+
+
+Un concursante tiene la opción de seleccionar tres comodines como ayuda para contestar una pregunta que desconoce. Uno se denomina “50/50”, que elimina dos respuestas incorrectas de la pregunta, otro se llama “ayuda del público” que consiste en que el público presente en el concurso responde a la pregunta y el concursante tiene la opción de seleccionar la respuesta que considere según la estadística obtenida en las respuestas. El último comodín se llama “la llamada a un amigo”, consiste en que se le permite al concursante llamar a un contacto vía telefónica y durante 30 segundos debe hacerle la pregunta y brindarle las opciones de respuesta para que el contacto al otro lado del teléfono seleccione una; el concursante está en la libertad de seleccionar o no la respuesta brindada por el contacto telefónico.
+
+La empresa organizadora del concurso transmitirá el concurso de lunes a viernes en la noche, solicita su servicio para crear un programa que registre en una semana la siguiente información:
+•	Los datos personales de los concursantes.
+•	El progreso de cada concursante desde que inicia en la fase de clasificación hasta la última pregunta correcta respondida. Para esto, se solicita que se almacene la siguiente información:
+o	Tiempo que tardó en responder la pregunta clasificatoria.
+o	Valor del premio obtenido en pesos.
+o	Número de la última pregunta respondida correctamente.
+o	Comodines que utilizó.
+•	El valor en pesos otorgado en cada emisión del concurso en esa semana.
+•	El valor en pesos otorgado a todos los concursantes durante esa semana. 
+
+La empresa requiere que esta información se muestre por medio de un reporte al final de la última emisión del programa de concurso en la semana.
+
+                                                                                                                                    .
+
+Entrega
+La solución planteada por el equipo debe realizarse haciendo uso del (de los) lenguaje(s) de su preferencia abordados durante este semestre en la asignatura. La entrega de la solución se realiza tanto por el sitio destinado a esta actividad en Interactiva como por un repositorio en GitHub. La entrega de la solución por interactiva debe ir acompañada de un archivo de texto que contenga el nombre de los integrantes y la dirección del repositorio en GitHub. 
+
+Para la sustentación de la solución desarrollada, el equipo debe elaborar un video en el que se debe detallar paso a paso el proceso que se llevó a cabo, deben aparecer en el video y participar todos los integrantes que hacen parte del equipo. El video elaborado debe ser subido a Internet y debe generarse un enlace para que se pueda acceder a este para la correspondiente revisión de la entrega realizada. Este enlace debe incluirse también tanto en el archivo de texto que acompaña a la solución entregada por Interactiva como en el archivo Readme.md que se debe incluir en al repositorio en GitHub.
+                                                                                                                                    .
+
+Valoración:
+•	Solución del ejercicio haciendo uso de lenguaje(s) de programación trabajado(s) durante este semestre en Lenguajes de Programación (30%).
+•	Implementación de aspectos vistos en clase como funciones, clases, objetos, herencia, paquetes, etc. (30%)
+•	Video de sustentación. (40%)
+Consideraciones:
+•	La práctica puede realizarse en equipos hasta de dos (2) personas.
+•	En interactiva se habilita un espacio para la entrega de la práctica. La entrega se hace tanto por el espacio habilitado para la entrega como por un enlace de un repositorio en GitHub. Por esta razón, se debe subir a GitHub el ejercicio desarrollado y compartir por interactiva el enlace para acceder a la solución propuesta.
+•	La solución entregada debe basarse en el(los) paradigma(s) que usted(es) seleccione(n).
+•	En el repositorio en GitHub, se debe incluir un archivo “Readme.md” que contenga los nombres completos de los integrantes, la versión del compilador que seleccionaron, la IDE que utilizaron para el desarrollo de la práctica y el enlace del video de sustentación elaborado.
+                                                                                                                                    .
+
+Referencias
+Academic. (2021). ¿Quién quiere ser millonario? Academic: https://es-academic.com/dic.nsf/eswiki/15046
+
