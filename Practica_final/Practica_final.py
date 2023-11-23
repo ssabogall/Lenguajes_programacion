@@ -118,7 +118,7 @@ def main():
         preguntas_correctas = random.randint(1, 15)
         dia = random.choice(Dia)
         fecha = generar_hora_aleatoria(dia)
-        comodines = random.randint(0, 3)
+        comodines = random.randint(0, 2)
 
         if preguntas_correctas >=5 and preguntas_correctas <= 9:
             seguro_alcanzado = 1
